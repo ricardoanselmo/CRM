@@ -890,7 +890,7 @@ function renderServiceOptions() {
 // ═══════════════════════════════════════════════════════════════
 
 function checkConfig() {
-  if (SCRIPT_URL.startsWith('COLE_AQUI') || SECRET_KEY.startsWith('TROQUE')) {
+  if (SCRIPT_URL.startsWith('const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbxZ42bJ5OSIx0UI1VDm-iK2VTO2nBsEhyBqjsx9BCL4Kwg6IF4H7BEymF8ShA76jzxA1Q/exec';') || SECRET_KEY.startsWith('const SECRET_KEY = 'drmarcos2026';')) {
     alert('⚠️ Você ainda não configurou o SCRIPT_URL e a SECRET_KEY no topo do <script> do HTML. Veja o guia.');
     return false;
   }
