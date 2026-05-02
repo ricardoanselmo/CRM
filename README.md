@@ -762,8 +762,7 @@ body {
 
 // 1) URL do seu Apps Script implantado como Web App
 //    (gerada quando você clica em "Implantar → Nova implantação")
-const SCRIPT_URL = 'COLE_AQUI_A_URL_DO_APPS_SCRIPT';
-
+const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbxZ42bJ5OSIx0UI1VDm-iK2VTO2nBsEhyBqjsx9BCL4Kwg6IF4H7BEymF8ShA76jzxA1Q/exec';
 // 2) Senha — tem que ser EXATAMENTE igual ao SECRET_KEY do Apps Script.
 //    Também é usada pra entrar no painel.
 const SECRET_KEY = 'drmarcos2026';
